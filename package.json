@@ -12,16 +12,423 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.helloWorld"
+		"*"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
+		"keybindings": [
+			{
+				"command": "extension.kMode",
+				"key": "ctrl+alt+`",
+				"mac": "cmd+alt+`"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "q",
+				"args": {
+					"text": "q"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "w",
+				"args": {
+					"text": "w"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "e",
+				"args": {
+					"text": "e"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "r",
+				"args": {
+					"text": "r"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "t",
+				"args": {
+					"text": "t"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "y",
+				"args": {
+					"text": "y"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "u",
+				"args": {
+					"text": "u"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "i",
+				"args": {
+					"text": "i"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "o",
+				"args": {
+					"text": "o"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "p",
+				"args": {
+					"text": "p"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "@",
+				"args": {
+					"text": "@"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "[",
+				"args": {
+					"text": "["
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "a",
+				"args": {
+					"text": "a"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "s",
+				"args": {
+					"text": "s"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "d",
+				"args": {
+					"text": "d"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "f",
+				"args": {
+					"text": "f"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "g",
+				"args": {
+					"text": "g"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "h",
+				"args": {
+					"text": "h"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "j",
+				"args": {
+					"text": "j"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "k",
+				"args": {
+					"text": "k"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "l",
+				"args": {
+					"text": "l"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": ";",
+				"args": {
+					"text": ";"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": ":",
+				"args": {
+					"text": ":"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "]",
+				"args": {
+					"text": "]"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "z",
+				"args": {
+					"text": "z"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "x",
+				"args": {
+					"text": "x"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "c",
+				"args": {
+					"text": "c"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "v",
+				"args": {
+					"text": "v"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "b",
+				"args": {
+					"text": "b"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "n",
+				"args": {
+					"text": "n"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "m",
+				"args": {
+					"text": "m"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": ",",
+				"args": {
+					"text": ","
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": ".",
+				"args": {
+					"text": "."
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "/",
+				"args": {
+					"text": "/"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "_",
+				"args": {
+					"text": "_"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "1",
+				"args": {
+					"text": "1"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "2",
+				"args": {
+					"text": "2"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "3",
+				"args": {
+					"text": "3"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "4",
+				"args": {
+					"text": "4"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "5",
+				"args": {
+					"text": "5"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "6",
+				"args": {
+					"text": "6"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "7",
+				"args": {
+					"text": "7"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "8",
+				"args": {
+					"text": "8"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "9",
+				"args": {
+					"text": "9"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "0",
+				"args": {
+					"text": "0"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "-",
+				"args": {
+					"text": "-"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "^",
+				"args": {
+					"text": "^"
+				},
+				"when": "kMode:enabled"
+			},
+			{
+				"command": "extension.handleKey",
+				"key": "¥",
+				"args": {
+					"text": "¥"
+				},
+				"when": "kMode:enabled"
+			}
+		],
 		"commands": [
 			{
-				"command": "extension.helloWorld",
-				"title": "Hello World"
+				"command": "extension.kMode",
+				"title": "Toggle kMode"
 			}
-		]
+		],
+		"configuration": {
+			"title": "helloworld-sample",
+			"properties": {
+				"helloworld-sample.letterCommandMapping": {
+					"type": "array",
+					"default": [
+						"a,workbench.action.toggleSidebarVisibility"
+					],
+					"items": {
+						"type": "string",
+						"description": "<letter>,<command>"
+					},
+					"description": "Provide a list of keybindings in a format: “<letter>,<command>”"
+				}
+			}
+		}
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
