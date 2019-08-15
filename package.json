@@ -4,6 +4,7 @@
 	"description": "",
 	"version": "0.9.0",
 	"publisher": "Jakub Niewczas",
+	"license": "SEE LICENSE IN LICENSE",
 	"repository": "https://github.com/kubenstein/keybinding-mode",
 	"engines": {
 		"vscode": "^1.34.0"
