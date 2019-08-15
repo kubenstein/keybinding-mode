@@ -20,8 +20,7 @@
 		"keybindings": [
 			{
 				"command": "keybindingMode.toggle",
-				"key": "ctrl+alt+`",
-				"mac": "cmd+alt+`"
+				"key": "§ §"
 			},
 			{
 				"command": "keybindingMode.handleKey",
