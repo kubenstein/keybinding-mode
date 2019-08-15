@@ -19,7 +19,6 @@ const parsedMappingSettings = () => {
 
 export function activate(context: ExtensionContext) {
 	let enabled = false;
-	const letterCommandMapping = parsedMappingSettings();
 
 	context.subscriptions.push(registerCommand('keybindingMode.toggle', () => {
 		enabled = !enabled;
@@ -30,6 +29,7 @@ export function activate(context: ExtensionContext) {
 	context.subscriptions.push(registerCommand('keybindingMode.handleKey', ({ text }) => {
 		if (!enabled) return;
 
+		const letterCommandMapping = parsedMappingSettings();
 		const command = letterCommandMapping[text];
 		if (command) {
 			executeCommand(command);
