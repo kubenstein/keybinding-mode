@@ -1,27 +1,13 @@
-# Hello World Sample
+## Keybinding Mode
+Keybinding Mode is a vs code extension allowing you to bind commands simply to each letter on your keyboard. Gain 48 easy accessible keybinding slots instead of complicated keybind combos.
 
-This is a Hello World example that shows you how to use VS Code API.
+## Usage
+By double pressing `§` (you can configure your own shortcut) the editor will be switched to a special mode in which all key presses are captured. In the extension settings you can bind commands to letter, allowing a command to be executed in fast and easy way. Double pressing `§` again will disable special mode. The toast notification will be displayed every time the mode is switched.
 
-Guide for this sample: https://code.visualstudio.com/api/get-started/your-first-extension.
 
-## Demo
+## Motivation
+I extensively use tabs while I'm developing and so far I couldn't find easy (and not yet occupied) keybinding slots for all the shortcuts I want to use.
 
-![demo](demo.gif)
 
-## VS Code API
-
-### `vscode` module
-
-- [`commands.registerCommand`](https://code.visualstudio.com/api/references/vscode-api#commands.registerCommand)
-- [`window.showInformationMessage`](https://code.visualstudio.com/api/references/vscode-api#window.showInformationMessage)
-
-### Contribution Points
-
-- [`contributes.commands`](https://code.visualstudio.com/api/references/contribution-points#contributes.commands)
-
-## Running the Sample
-
-- Run `npm install` in terminal to install dependencies
-- Run the `Run Extension` target in the Debug View. This will:
-	- Start a task `npm: watch` to compile the code
-	- Run the extension in a new VS Code window
+## Limitations
+Due to limitations in how vs code keybindings logic is made (not respecting `when` clause in single letter rules), command binding has to be done from the extension settings view.
