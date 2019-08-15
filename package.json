@@ -1,6 +1,6 @@
 {
 	"name": "keybinding-mode",
-	"displayName": "keybinding-mode",
+	"displayName": "KeybindingMode",
 	"description": "Add extra keybinding mode, allowing you binding commands to single letters.",
 	"version": "0.9.0",
 	"publisher": "Jakub Niewczas",
