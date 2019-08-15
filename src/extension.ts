@@ -5,7 +5,7 @@ const { showInformationMessage } = window;
 
 const parsedMappingSettings = () => {
 	return workspace
-		.getConfiguration('helloworld-sample')
+		.getConfiguration('keybindingMode')
 		.get('letterCommandMapping', <any[]>[])
 		.reduce(
 			(mapping, letterCommandMappingString) => {
@@ -21,13 +21,13 @@ export function activate(context: ExtensionContext) {
 	let enabled = false;
 	const letterCommandMapping = parsedMappingSettings();
 
-	context.subscriptions.push(registerCommand('extension.kMode', () => {
+	context.subscriptions.push(registerCommand('keybindingMode.toggle', () => {
 		enabled = !enabled;
-		executeCommand('setContext', 'kMode:enabled', enabled)
-		showInformationMessage(`kMode ${enabled ? 'enabled' : 'disabled'}`);
+		executeCommand('setContext', 'keybindingMode:enabled', enabled)
+		showInformationMessage(`keybindingMode ${enabled ? 'enabled' : 'disabled'}`);
 	}));
 
-	context.subscriptions.push(registerCommand('extension.handleKey', ({ text }) => {
+	context.subscriptions.push(registerCommand('keybindingMode.handleKey', ({ text }) => {
 		if (!enabled) return;
 
 		const command = letterCommandMapping[text];
