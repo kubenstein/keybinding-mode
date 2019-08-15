@@ -31,7 +31,9 @@ export function activate(context: ExtensionContext) {
 		if (!enabled) return;
 
 		const command = letterCommandMapping[text];
-		return command ? executeCommand(command) : Promise.resolve();
+		if (command) {
+			executeCommand(command);
+		}
 	}));
 }
 
