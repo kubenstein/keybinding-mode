@@ -3,8 +3,8 @@ const { registerCommand, executeCommand } = commands;
 const { showInformationMessage } = window;
 
 
-const parsedMappingSettings = () => {
-	return workspace
+const parsedMappingSettings = () => (
+	workspace
 		.getConfiguration('keybindingMode')
 		.get('letterCommandMapping', <any[]>[])
 		.reduce(
@@ -14,8 +14,8 @@ const parsedMappingSettings = () => {
 				return mapping;
 			},
 			{}
-		);
-}
+		)
+	);
 
 export function activate(context: ExtensionContext) {
 	let enabled = false;
