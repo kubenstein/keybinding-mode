@@ -28,7 +28,3 @@ f,workbench.action.moveEditorToLeftGroup
 
 ## Motivation
 I extensively use tabs while I'm developing and so far I couldn't find easy (and not yet occupied) keybinding slots for all the shortcuts I want to use.
-
-
-## Limitations
-Due to limitations in how vs code keybindings logic is made (not respecting `when` clause in single letter rules), command binding has to be done from the extension settings view.
