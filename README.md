@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/kubenstein/keybinding-mode/master/resources/keybinding-mode-icon.png" alt="Keybinding Mode Logo"/>
+</p>
+
 ## Keybinding Mode
 Keybinding Mode is a vs code extension allowing you to bind commands simply to each letter on your keyboard. Gain 48 easy accessible keybinding slots instead of complicated keybind combos.
 
