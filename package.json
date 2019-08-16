@@ -20,7 +20,7 @@
 		"keybindings": [
 			{
 				"command": "keybindingMode.toggle",
-				"key": "§ §"
+				"key": "` `"
 			},
 			{
 				"command": "keybindingMode.handleKey",
