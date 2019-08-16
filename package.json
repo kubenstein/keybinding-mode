@@ -16,6 +16,11 @@
   "categories": [
     "Keymaps"
   ],
+  "keywords": [
+    "keybinding",
+    "shortcuts",
+    "productivity"
+  ],
   "activationEvents": [
     "*"
   ],
