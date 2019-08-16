@@ -3,19 +3,14 @@ const { registerCommand, executeCommand } = commands;
 const { showInformationMessage } = window;
 
 
-const parsedMappingSettings = () => (
-	workspace
+const commandForLetter = (letter: string) => (
+	(workspace
 		.getConfiguration('keybindingMode')
-		.get('letterCommandMapping', <any[]>[])
-		.reduce(
-			(mapping, letterCommandMappingString) => {
-				const [letter, command] = letterCommandMappingString.split(',');
-				mapping[letter] = command;
-				return mapping;
-			},
-			{}
-		)
-	);
+		.get('letterCommandMapping', <string[]>[])
+		.find(letterCommandMappingString => letterCommandMappingString[0] === letter) || ''
+	)
+	.split(',')[1]
+);
 
 export function activate(context: ExtensionContext) {
 	let enabled = false;
@@ -26,11 +21,10 @@ export function activate(context: ExtensionContext) {
 		showInformationMessage(`keybindingMode ${enabled ? 'enabled' : 'disabled'}`);
 	}));
 
-	context.subscriptions.push(registerCommand('keybindingMode.handleKey', ({ text }) => {
+	context.subscriptions.push(registerCommand('keybindingMode.handleKey', ({ text: letter }) => {
 		if (!enabled) return;
 
-		const letterCommandMapping = parsedMappingSettings();
-		const command = letterCommandMapping[text];
+		const command = commandForLetter(letter);
 		if (command) {
 			executeCommand(command);
 		}
