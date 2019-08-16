@@ -2,7 +2,7 @@
 Keybinding Mode is a vs code extension allowing you to bind commands simply to each letter on your keyboard. Gain 48 easy accessible keybinding slots instead of complicated keybind combos.
 
 ## Usage
-By double pressing ``` (you can configure your own shortcut) the editor will be switched to a special mode in which all key presses are captured. In the extension settings you can bind commands to letter, allowing a command to be executed in fast and easy way. Double pressing ``` again will disable special mode. The toast notification will be displayed every time the mode is switched.
+By double pressing `` ` `` (you can configure your own shortcut) the editor will be switched to a special mode in which all key presses are captured. In the extension settings you can bind commands to letter, allowing a command to be executed in fast and easy way. Double pressing `` ` `` again will disable special mode. The toast notification will be displayed every time the mode is switched.
 
 ## Demo
 In the demo below I bound tabs related functionalities, like focusing editors and screen spliting, using following config:
