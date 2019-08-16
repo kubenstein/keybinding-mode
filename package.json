@@ -1,445 +1,445 @@
 {
-	"name": "keybinding-mode",
-	"displayName": "KeybindingMode",
-	"description": "Add extra keybinding mode, allowing you binding commands to single letters.",
-	"version": "0.9.0",
-	"publisher": "Jakub Niewczas",
-	"license": "SEE LICENSE IN LICENSE",
-	"repository": "https://github.com/kubenstein/keybinding-mode",
-	"engines": {
-		"vscode": "^1.34.0"
-	},
-	"categories": [
-		"Keymaps"
-	],
-	"activationEvents": [
-		"*"
-	],
-	"main": "./out/extension.js",
-	"contributes": {
-		"keybindings": [
-			{
-				"command": "keybindingMode.toggle",
-				"key": "` `"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "q",
-				"args": {
-					"text": "q"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "w",
-				"args": {
-					"text": "w"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "e",
-				"args": {
-					"text": "e"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "r",
-				"args": {
-					"text": "r"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "t",
-				"args": {
-					"text": "t"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "y",
-				"args": {
-					"text": "y"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "u",
-				"args": {
-					"text": "u"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "i",
-				"args": {
-					"text": "i"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "o",
-				"args": {
-					"text": "o"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "p",
-				"args": {
-					"text": "p"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "@",
-				"args": {
-					"text": "@"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "[",
-				"args": {
-					"text": "["
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "a",
-				"args": {
-					"text": "a"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "s",
-				"args": {
-					"text": "s"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "d",
-				"args": {
-					"text": "d"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "f",
-				"args": {
-					"text": "f"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "g",
-				"args": {
-					"text": "g"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "h",
-				"args": {
-					"text": "h"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "j",
-				"args": {
-					"text": "j"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "k",
-				"args": {
-					"text": "k"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "l",
-				"args": {
-					"text": "l"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": ";",
-				"args": {
-					"text": ";"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": ":",
-				"args": {
-					"text": ":"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "]",
-				"args": {
-					"text": "]"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "z",
-				"args": {
-					"text": "z"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "x",
-				"args": {
-					"text": "x"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "c",
-				"args": {
-					"text": "c"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "v",
-				"args": {
-					"text": "v"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "b",
-				"args": {
-					"text": "b"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "n",
-				"args": {
-					"text": "n"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "m",
-				"args": {
-					"text": "m"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": ",",
-				"args": {
-					"text": ","
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": ".",
-				"args": {
-					"text": "."
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "/",
-				"args": {
-					"text": "/"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "_",
-				"args": {
-					"text": "_"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "1",
-				"args": {
-					"text": "1"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "2",
-				"args": {
-					"text": "2"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "3",
-				"args": {
-					"text": "3"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "4",
-				"args": {
-					"text": "4"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "5",
-				"args": {
-					"text": "5"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "6",
-				"args": {
-					"text": "6"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "7",
-				"args": {
-					"text": "7"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "8",
-				"args": {
-					"text": "8"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "9",
-				"args": {
-					"text": "9"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "0",
-				"args": {
-					"text": "0"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "-",
-				"args": {
-					"text": "-"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "^",
-				"args": {
-					"text": "^"
-				},
-				"when": "keybindingMode:enabled"
-			},
-			{
-				"command": "keybindingMode.handleKey",
-				"key": "¥",
-				"args": {
-					"text": "¥"
-				},
-				"when": "keybindingMode:enabled"
-			}
-		],
-		"commands": [
-			{
-				"command": "keybindingMode.toggle",
-				"title": "Toggle Keybinding Mode"
-			}
-		],
-		"configuration": {
-			"title": "KeybindingMode",
-			"properties": {
-				"keybindingMode.letterCommandMapping": {
-					"type": "array",
-					"default": [
-						"a,workbench.action.toggleSidebarVisibility"
-					],
-					"items": {
-						"type": "string",
-						"description": "<letter>,<command>"
-					},
-					"description": "Provide a list of keybindings in a format: “<letter>,<command>”"
-				}
-			}
-		}
-	},
-	"scripts": {
-		"vscode:prepublish": "yarn run compile",
-		"compile": "tsc -p ./",
-		"lint": "tslint -p ./",
-		"watch": "tsc -watch -p ./"
-	},
-	"devDependencies": {
-		"@types/node": "^8.10.25",
-		"@types/vscode": "^1.34.0",
-		"tslint": "^5.16.0",
-		"typescript": "^3.5.1"
-	}
+  "name": "keybinding-mode",
+  "displayName": "KeybindingMode",
+  "description": "Add extra keybinding mode, allowing you binding commands to single letters.",
+  "version": "0.9.0",
+  "publisher": "Jakub Niewczas",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": "https://github.com/kubenstein/keybinding-mode",
+  "engines": {
+    "vscode": "^1.34.0"
+  },
+  "categories": [
+    "Keymaps"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "keybindings": [
+      {
+        "command": "keybindingMode.toggle",
+        "key": "` `"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "q",
+        "args": {
+          "text": "q"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "w",
+        "args": {
+          "text": "w"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "e",
+        "args": {
+          "text": "e"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "r",
+        "args": {
+          "text": "r"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "t",
+        "args": {
+          "text": "t"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "y",
+        "args": {
+          "text": "y"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "u",
+        "args": {
+          "text": "u"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "i",
+        "args": {
+          "text": "i"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "o",
+        "args": {
+          "text": "o"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "p",
+        "args": {
+          "text": "p"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "@",
+        "args": {
+          "text": "@"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "[",
+        "args": {
+          "text": "["
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "a",
+        "args": {
+          "text": "a"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "s",
+        "args": {
+          "text": "s"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "d",
+        "args": {
+          "text": "d"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "f",
+        "args": {
+          "text": "f"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "g",
+        "args": {
+          "text": "g"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "h",
+        "args": {
+          "text": "h"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "j",
+        "args": {
+          "text": "j"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "k",
+        "args": {
+          "text": "k"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "l",
+        "args": {
+          "text": "l"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": ";",
+        "args": {
+          "text": ";"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": ":",
+        "args": {
+          "text": ":"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "]",
+        "args": {
+          "text": "]"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "z",
+        "args": {
+          "text": "z"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "x",
+        "args": {
+          "text": "x"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "c",
+        "args": {
+          "text": "c"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "v",
+        "args": {
+          "text": "v"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "b",
+        "args": {
+          "text": "b"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "n",
+        "args": {
+          "text": "n"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "m",
+        "args": {
+          "text": "m"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": ",",
+        "args": {
+          "text": ","
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": ".",
+        "args": {
+          "text": "."
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "/",
+        "args": {
+          "text": "/"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "_",
+        "args": {
+          "text": "_"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "1",
+        "args": {
+          "text": "1"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "2",
+        "args": {
+          "text": "2"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "3",
+        "args": {
+          "text": "3"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "4",
+        "args": {
+          "text": "4"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "5",
+        "args": {
+          "text": "5"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "6",
+        "args": {
+          "text": "6"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "7",
+        "args": {
+          "text": "7"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "8",
+        "args": {
+          "text": "8"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "9",
+        "args": {
+          "text": "9"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "0",
+        "args": {
+          "text": "0"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "-",
+        "args": {
+          "text": "-"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "^",
+        "args": {
+          "text": "^"
+        },
+        "when": "keybindingMode:enabled"
+      },
+      {
+        "command": "keybindingMode.handleKey",
+        "key": "¥",
+        "args": {
+          "text": "¥"
+        },
+        "when": "keybindingMode:enabled"
+      }
+    ],
+    "commands": [
+      {
+        "command": "keybindingMode.toggle",
+        "title": "Toggle Keybinding Mode"
+      }
+    ],
+    "configuration": {
+      "title": "KeybindingMode",
+      "properties": {
+        "keybindingMode.letterCommandMapping": {
+          "type": "array",
+          "default": [
+            "a,workbench.action.toggleSidebarVisibility"
+          ],
+          "items": {
+            "type": "string",
+            "description": "<letter>,<command>"
+          },
+          "description": "Provide a list of keybindings in a format: “<letter>,<command>”"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "yarn run compile",
+    "compile": "tsc -p ./",
+    "lint": "tslint -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^8.10.25",
+    "@types/vscode": "^1.34.0",
+    "tslint": "^5.16.0",
+    "typescript": "^3.5.1"
+  }
 }
