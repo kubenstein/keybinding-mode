@@ -410,11 +410,11 @@
 		"commands": [
 			{
 				"command": "keybindingMode.toggle",
-				"title": "Toggle keybinding mode"
+				"title": "Toggle Keybinding Mode"
 			}
 		],
 		"configuration": {
-			"title": "keybinding-mode",
+			"title": "KeybindingMode",
 			"properties": {
 				"keybindingMode.letterCommandMapping": {
 					"type": "array",
