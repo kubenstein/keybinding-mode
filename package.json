@@ -13,7 +13,7 @@
   "engines": {
     "vscode": "^1.34.0"
   },
-  "icon": "keybinding-mode-icon.png",
+  "icon": "resources/keybinding-mode-icon.png",
   "categories": [
     "Keymaps"
   ],

@@ -7,7 +7,7 @@ By double pressing `` ` `` (you can configure your own shortcut) the editor will
 ## Demo
 In the demo below I bound tabs related functionalities, like focusing editors and screen spliting, using following config:
 
-![demo](./demo.gif)
+![demo](./resources/demo.gif)
 ```
 Keybindings I use for this demo:
 1,2 - focus prev/next editor
