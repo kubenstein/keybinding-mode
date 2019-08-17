@@ -2,7 +2,7 @@
   "name": "keybinding-mode",
   "displayName": "KeybindingMode",
   "description": "Add extra keybinding mode, allowing you binding commands to single letters.",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "author": {
     "name": "Jakub Niewczas",
     "email": "niewczas.jakub@gmail.com"
