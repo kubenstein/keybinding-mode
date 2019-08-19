@@ -2,9 +2,9 @@
   <img src="https://raw.githubusercontent.com/kubenstein/keybinding-mode/master/resources/keybinding-mode-icon.png" alt="Keybinding Mode Logo"/>
 </p>
 
-<h1><p align="center">VS Code: Keybinding Mode</p></h1>
+<h1><p align="center">VS Code: KeybindingMode</p></h1>
 
-`Keybinding Mode` is a VS Code extension allowing you to bind commands to just a single letter on your keyboard. Gain 48 easy accessible keybinding slots as an alternative to complicated keybinding combos.
+`KeybindingMode` is a VS Code extension allowing you to bind commands to just a single letter on your keyboard. Gain 48 easy accessible keybinding slots as an alternative to complicated keybinding combos.
 
 ## Usage
 By double pressing `` ` `` (you can configure your own shortcut) the editor will be switched to a special mode in which typing is disabled and keys act as command shortcuts. In the extension settings you can bind commands to letters. Double pressing `` ` `` again will disable special mode. The toast notification is shown every time the mode is switched.
